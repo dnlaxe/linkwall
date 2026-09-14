@@ -1,0 +1,22 @@
+# Node
+node_modules/
+dist/
+
+# Env / secrets
+.env
+.env.local
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Go / Lambda
+bootstrap
+*.zip
+
+# Terraform
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.*
+infra/terraform.tfvars
+infra/artifacts/
